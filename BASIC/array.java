@@ -340,5 +340,10 @@ public class array {
         int prices[] = { 7, 1, 5, 3, 6, 4 };
         System.out.println("max profit :" + BuySellStocks_2(prices));
 
+
+        
     }
 }
+
+
+

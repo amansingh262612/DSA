@@ -65,12 +65,12 @@ public class Sorting {
         for (int i = 1; i < arr.length; i++) {
             int curr = arr[i];
             int prev = i - 1;
-            // for correct posy
+            // correct posy finder
             while (prev >= 0 && arr[prev] > curr) {
                 arr[prev + 1] = arr[prev];
                 prev--;
             }
-            // for insertion
+            // insertion
             arr[prev + 1] = curr;
         }
 
